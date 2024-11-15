@@ -1,0 +1,30 @@
+/* Set background color */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1d7b8; /* Slightly tweaked color to better match the logo */
+    font-family: Arial, sans-serif;
+}
+
+/* Center content vertically and horizontally */
+.content {
+    text-align: center;
+}
+
+/* Logo styling */
+.logo {
+    max-width: 40%; /* Reduced to 50% of the previous size */
+    height: auto;
+}
+
+/* Contact info styling */
+.contact {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333; /* Adjust if you want a different text color */
+}
