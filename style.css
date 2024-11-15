@@ -6,7 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #E1D1B7; /* Updated to new user-specified background color */
+    background-color: #E1D1B7; /* User-specified background color */
     font-family: Arial, sans-serif;
 }
 
@@ -17,14 +17,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-/* Banner text styling */
-h1 {
-    font-size: 2em;
-    font-weight: bold;
-    color: #4a4a4a; /* Darker color for contrast */
-    margin: 0 0 20px 0;
 }
 
 /* Banner image styling */
@@ -52,4 +44,14 @@ h1 {
     font-size: 1.5em;
     font-weight: bold;
     color: #333;
+    margin-bottom: 20px;
+}
+
+/* Bottom banner text styling */
+.bottom-banner-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    text-transform: uppercase;
 }
